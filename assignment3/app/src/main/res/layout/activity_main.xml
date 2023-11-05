@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="1">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_span="2"
+        android:height="55dp"
+        android:background="@color/purple_500"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/page_name"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <TableRow android:layout_marginHorizontal="10dp">
+
+        <EditText
+            android:id="@+id/etVersion"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:hint="Enter Android Version" />
+    </TableRow>
+
+    <TableRow android:layout_marginHorizontal="10dp">
+
+        <EditText
+            android:id="@+id/etCodeName"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:hint="Enter Android Code Name" />
+    </TableRow>
+
+    <TableRow android:layout_marginHorizontal="10dp">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="Add" />
+    </TableRow>
+
+    <TableRow android:layout_marginHorizontal="13dp">
+
+        <TextView
+            android:layout_width="180dp"
+            android:background="#7CEA4FAB"
+            android:text="Version"
+            android:textFontWeight="600"
+            android:layout_marginRight="13dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:background="#7CEA4FAB"
+            android:text="Code Name"
+            android:textFontWeight="600" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginHorizontal="13dp"
+        android:layout_marginTop="3dp">
+
+        <TextView
+            android:background="#7CEA4FAB"
+            android:text="7.0"
+            android:layout_marginRight="13dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:background="#7CEA4FAB"
+            android:text="New york Cheesecake" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginHorizontal="13dp"
+        android:layout_marginTop="3dp">
+
+        <TextView
+            android:background="#7CEA4FAB"
+            android:text="8.0"
+            android:layout_marginRight="13dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:background="#7CEA4FAB"
+            android:text="Oatmeal Cookie" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginHorizontal="13dp"
+        android:layout_marginTop="3dp">
+
+        <TextView
+            android:background="#7CEA4FAB"
+            android:text="9.0"
+            android:layout_marginRight="13dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:background="#7CEA4FAB"
+            android:text="Pistachio Ice Cream" />
+    </TableRow>
+</TableLayout>
