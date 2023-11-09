@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_walmart_logo"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/walmart_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_create_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Create your account"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/iv_walmart_logo"
+            app:layout_constraintStart_toStartOf="@id/iv_walmart_logo"
+            app:layout_constraintTop_toBottomOf="@id/iv_walmart_logo" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="4dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_create_account">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tv_required_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="* required field"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv_first_name_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="First name *"
+                    app:layout_constraintTop_toBottomOf="@id/tv_required_field" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et_first_name"
+                    style="@style/Widget.AppCompat.EditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/border"
+                    android:inputType="textEmailAddress"
+                    app:layout_constraintTop_toBottomOf="@id/tv_first_name_hint" />
+
+
+                <TextView
+                    android:id="@+id/tv_last_name_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Last name *"
+                    app:layout_constraintTop_toBottomOf="@id/et_first_name" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et_last_name"
+                    style="@style/Widget.AppCompat.EditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/border"
+                    android:inputType="textEmailAddress"
+                    app:layout_constraintTop_toBottomOf="@id/tv_last_name_hint" />
+
+                <TextView
+                    android:id="@+id/tv_email_hint"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="12dp"
+                    android:layout_height="wrap_content"
+                    android:text="Email address *"
+                    app:layout_constraintTop_toBottomOf="@id/et_last_name" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et_email"
+                    style="@style/Widget.AppCompat.EditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/border"
+                    android:inputType="textEmailAddress"
+                    app:layout_constraintTop_toBottomOf="@id/tv_email_hint" />
+
+
+                <TextView
+                    android:id="@+id/tv_pass_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Password *"
+                    android:layout_marginTop="12dp"
+                    app:layout_constraintTop_toBottomOf="@id/et_email"
+                    />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    style="@style/Widget.AppCompat.EditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/border"
+                    android:inputType="textPassword"
+                    android:id="@+id/et_pass"
+                    app:layout_constraintTop_toBottomOf="@id/tv_pass_hint"
+                    />
+
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_create_account"
+                    app:layout_constraintTop_toBottomOf="@id/et_pass"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/blue"
+                    android:text="Create Account"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    />
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        >
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
