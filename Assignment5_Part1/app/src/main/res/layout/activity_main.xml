@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvApp"
+        android:layout_width="437dp"
+        android:layout_height="70dp"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:text="@string/app_name"
+        android:textSize="14pt"
+        android:paddingTop="5pt"
+        android:paddingLeft="5pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:paddingLeft="5pt"
+        android:text="@string/question1"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="405dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="48dp"
+        android:paddingLeft="5pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv1">
+
+        <RadioButton
+            android:id="@+id/rbTypeSafty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type safety"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <RadioButton
+            android:id="@+id/rbDataBinding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data binding"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <RadioButton
+            android:id="@+id/rbTypeValidation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type validation"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <RadioButton
+            android:id="@+id/rbWrongText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wrong text"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="186dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="167dp"
+        android:text="@string/question2"
+        android:paddingLeft="5pt"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rg1" />
+
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="405dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="48dp"
+        android:paddingLeft="5pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv2">
+
+        <RadioButton
+            android:id="@+id/rbMinSdkVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="minSdkVersion"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <RadioButton
+            android:id="@+id/rbCompileSdkVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="compileSdkVersion"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <RadioButton
+            android:id="@+id/rbTargetSdkVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="targetSdkVersion"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <RadioButton
+            android:id="@+id/rbTestSdkVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="testSdkVersion"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="186dp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginLeft="5pt"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_700"
+            android:text="Submit"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2pt"
+            android:background="@color/teal_700"
+            android:text="Reset"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
