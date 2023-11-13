@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.os.Build
 import android.os.Bundle
 import android.widget.RadioButton
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.annotation.RequiresApi
 import com.mdp.assignment5_part1.databinding.ActivityMainBinding
@@ -59,6 +60,11 @@ class MainActivity : ComponentActivity() {
 
             builder.setMessage(message)
             builder.setNeutralButton("OK") { _, _ -> }
+
+            builder.setPositiveButton("Nice"){dialogInterface, which ->
+                Toast.makeText(applicationContext, "It's positive which id: $which", Toast.LENGTH_LONG)
+                dialogInterface.dismiss()
+            }
 
             val alert: AlertDialog = builder.create()
             alert.show()
