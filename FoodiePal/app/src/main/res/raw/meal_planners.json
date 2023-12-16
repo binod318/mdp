@@ -1,0 +1,26 @@
+[
+  {
+    "agenda": "Broadcasting Seminar",
+    "eventDate": "16/12/2023",
+    "eventTIme": "17:01",
+    "location": "Avenues Park, Florida"
+  },
+  {
+    "agenda": "Birthday Bash",
+    "eventDate": "17/12/2023",
+    "eventTIme": "04:00",
+    "location": "Everest Banquest, Georgia"
+  },
+  {
+    "agenda": "KFC New Opening",
+    "eventDate": "17/12/2023",
+    "eventTIme": "04:00",
+    "location": "Hankook Park, Georgia"
+  },
+  {
+    "agenda": "Ramesh Anniversary Event",
+    "eventDate": "18/12/2023",
+    "eventTIme": "19:00",
+    "location": "NiravanChowk Texas"
+  }
+]

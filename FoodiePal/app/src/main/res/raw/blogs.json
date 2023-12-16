@@ -1,0 +1,26 @@
+[
+  {
+    "author": "ESPNCricInfo Staff",
+    "description": "Indian cricket will never have another player wearing No. 7 on their jersey, after the BCCI decided to retire the number that belonged to MS Dhoni during his international and IPL career, according to a report in Indian Express.\r\n\r\nDhoni last\u0027s game for India was the 2019 ODI World Cup semi-final, and he announced his retirement from international cricket via a post on Instagram on August 15, 2020. No India cricketer has worn No. 7 since.\r\n\r\nDhoni\u0027s jersey number is the second to be retired by the BCCI, after the No. 10 worn by Sachin Tendulkar. Tendulkar ended his international career in 2013, and since then no Indian player had worn a No. 10 jersey in international cricket until Shardul Thakur did it in 2017, after which the BCCI decided to retire the jersey number.",
+    "favorite": false,
+    "publishedDate": "2023-12-16 17:16:08",
+    "thumbnail": 2131230972,
+    "title": "Dhoni\u0027s No. 7 retired by BCCI"
+  },
+  {
+    "author": "Philip Warner",
+    "description": "The biggest mistake that new winter hikers make is overdressing by wearing heavy or medium-weight baselayers that are hard to remove if you start to sweat. You’ll be much better off wearing a very thin crew or quarter-zip shirt and adding additional thermal or wind-blocking layers on top of it if you start to feel a chill.\r\n\r\nFor example, you can exert a finer degree of control over your warmth level if you wear a lightweight baselayer top instead of a medium or heavy one and then add a second lightweight top over it if you start to feel a chill. There’s virtually no weight difference clothing-wise in this approach, but it gives you a much finer level of control over how warm you want to be when hiking in winter.\r\n",
+    "favorite": true,
+    "publishedDate": "2023-12-16 17:16:49",
+    "thumbnail": 2131230964,
+    "title": "Hiking in a Thin Baselayer"
+  },
+  {
+    "author": "Alles RamBo",
+    "description": "Like a self-driving car, VIPER has cameras that monitor the environment around the rover and software that detects hazardous locations where it shouldn’t go. However, unlike self-driving cars, this software isn’t on board the rover; it’s back on Earth, and presents its conclusions to the rover drivers who use this information, along with many other sources, to decide how the rover should move.\r\n\r\nOne reason AI isn’t completely given the reins to the VIPER mission, is that AI techniques require a lot of training data – and this is the first time NASA will be remotely driving a robotic rover on the Moon. Using AI while always keeping humans in the loop provides a balance of risk and reward by using innovative and efficient techniques while avoiding unnecessary risk.\r\n\r\n“VIPER is using AI as a tool; we’re not giving it the keys to the car,” said Mark Shirley, who created the original deterministic planner for VIPER at NASA’s Ames Research Center in California’s Silicon Valley. “And for this science mission, we don’t have to – the Moon is close enough that we can monitor these systems that are still learning this new environment and watch everything, like how you’d want to watch over a new driver.”",
+    "favorite": false,
+    "publishedDate": "2023-12-16 18:00:52",
+    "thumbnail": 2131230971,
+    "title": "NASA’s First Robotic Lunar Rover"
+  }
+]

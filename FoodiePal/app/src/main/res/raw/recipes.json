@@ -1,0 +1,26 @@
+[
+  {
+    "cookingTime": "30",
+    "image": 2131230958,
+    "ingredients": "½ white onion (or 1 shallot, diced)\r\n1 large tomato , grated (skin discarded)\r\n2 green chilies (or red chillies, diced)\r\n½ cup chopped cilantro leaves\r\n2 cloves garlic , grated\r\n½ lime , juiced\r\n2 teaspoons sugar\r\nSalt , to taste\r\n1 tablespoon soy sauce\r\n5 oz. minced pork , with 20% fat - for meat option\r\n5 oz. tofu , crumbled (+ 3 tablespoons finely minced mushrooms) - for vegetarian option\r\n3 scallions , finely sliced\r\n1 green chilli , finely chopped\r\n2 teaspoons grated ginger\r\n2 teaspoons grated garlic\r\n1 tablespoon finely chopped cilantro\r\n¾ cup finely diced Hispi cabbage\r\n1 tablespoon soy sauce\r\n1 teaspoon freshly ground black pepper\r\nSalt , to taste\r\nOil , to brush",
+    "instruction": "In a bowl, mix the flour, 5 tablespoons of oil, and salt. Add water little by little and mix until obtaining a soft dough.\r\nDust the work surface with flour and knead the dough till it is silky and smooth.\r\nLightly oil the dough, and keep it covered in a bowl for 30 minutes.\r\nRoll the dough out on the work surface till it is thin and nearly transparent.\r\nUse a cookie cutter, a plastic cap or a glass (4 inches / 9 cm diameter) and cut circles out from the dough.\r\nIn a bowl, mix the chosen filling, mince or tofu, with all other ingredients for the filling.\r\nKnead the filling a bit to get a homogenous mass.\r\nTake one circle of dough in the palm of the hand or on a board.\r\nIn the center, place a heaped teaspoon of the filling.\r\nUsing the thumb and index finger, crimp the edges and bring them together in the center to form a dumpling. Leave ¼ inch (½ cm) open on top or close it completely. If making a round form is difficult, the dough can be folded over to make a half-moon pastry-pie shape, and crimp the edges to close.\r\nIn a steamer, pour water about 2 inches (5 cm) deep. Bring to a boil.\r\nLightly oil the steam basket or layer it with lightly oiled baking paper.\r\nArrange the momos around with an inch (2 cm) space between the momos.\r\nCover the steamer, and steam the momos on medium to high heat, for 15 mins. The momos look shiny and transparent when cooked.\r\nSteam the momos in batches, as all will not fit in at one go. Keep the cooked momos warm under a tea towel or in a container.\r\nServe the momos warm with soy sauce and chilli sauce in separate bowls.\r\n",
+    "name": "Momo",
+    "rating": 4.5
+  },
+  {
+    "cookingTime": "45",
+    "image": 2131230960,
+    "ingredients": "1 package (1/4 ounce) active dry yeast\r\n1 teaspoon sugar\r\n1-1/4 cups warm water (110° to 115°)\r\n1/4 cup canola oil\r\n1 teaspoon salt\r\n3-1/2 to 4 cups all-purpose flour\r\n1 can (15 ounces) tomato sauce\r\n3 teaspoons dried oregano\r\n1 teaspoon dried basil\r\n2 cups toppings of your choice (like sliced pepperoni, cooked crumbled sausage, chopped onion, sliced mushrooms, chopped green pepper or sliced olives), optional\r\n2 cups shredded part-skim mozzarella cheese",
+    "instruction": "In large bowl, dissolve yeast and sugar in water; let stand for 5 minutes. Add oil and salt. Stir in flour, 1 cup at a time, until a soft dough forms.\r\nTurn onto a floured surface; knead until smooth and elastic, 2-3 minutes. Place in a greased bowl, turning once to grease the top. Cover and let rise in a warm place until doubled, about 45 minutes.\r\nPunch down dough; divide in half. Press each half into a greased 12-in. pizza pan. Combine the tomato sauce, oregano and basil; spread over each crust. If desired, add toppings of your choice. Sprinkle with cheese.\r\nBake at 400° for 25-30 minutes or until crust is lightly browned.",
+    "name": "Pizza",
+    "rating": 4.0
+  },
+  {
+    "cookingTime": "25",
+    "image": 2131230969,
+    "ingredients": "12 ounces dried spaghetti,4 quarts water,1 tablespoon salt",
+    "instruction": "In a 6-quart pot, bring 4 to 6 quarts water and 1 to 1 1/2 tablespoons salt to a boil.\r\nAdd 12-ounces dry spaghetti to the pot, stir to separate noodles and prevent sticking and bring water back to a boil.\r\nCook spaghetti uncovered according to package directions; start checking for doneness 2 minutes before the suggested al dente time.\r\nDrain spaghetti, reserving up to 1 cup of cooking water to add to sauce.\r\nAdd the cooked spaghetti to the sauce with a splash of the cooking water and stir to coat, thinning it out with more cooking water as necessary.",
+    "name": "Spaghetti",
+    "rating": 3.5
+  }
+]

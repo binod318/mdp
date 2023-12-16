@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="recipe name"/>
+
+        <EditText
+            android:id="@+id/etCookingTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="cooking time (in minutes)"/>
+
+        <EditText
+            android:id="@+id/etIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ingredients"
+            android:minLines="3"
+            android:inputType="textMultiLine"/>
+
+        <EditText
+            android:id="@+id/etInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="instruction"
+            android:minLines="3"
+            android:inputType="textMultiLine"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginVertical="8sp"
+            android:id="@+id/imageThumbnail"
+            android:layout_width="253dp"
+            android:layout_height="186dp"
+            android:scaleType="centerCrop"/>
+
+        <RatingBar
+            android:id="@+id/rvRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5" />
+    </LinearLayout>
+
+</ScrollView>
