@@ -2,7 +2,7 @@
 
 ## Short Demonstration of the Application
 
-https://mum0-my.sharepoint.com/:v:/g/personal/binod_gurung_miu_edu/EaYnrXxHNChLk_tapNT9dSsBMaB2iWNaijhbGhgvAuNQZA?referrer=Teams.TEAMS-ELECTRON&referrerScenario=MeetingChicletGetLink.view.view
+![Demo](demo/demo.mp4)
 
 ## Login
 
