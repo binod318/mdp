@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.GardeningJournal" parent="@style/Theme.AppCompat">
+        <item name="android:navigationBarColor">@android:color/holo_blue_light</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+        <item name="android:actionBarTheme">@style/MyActionBarTheme</item>
+    </style>
+
+    <style name="Theme.GardeningJournal" parent="Base.Theme.GardeningJournal" />
+
+    <style name="MyActionBarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize the action bar -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/purple_500</item>
+
+        <!-- Add other customizations here -->
+    </style>
+</resources>
