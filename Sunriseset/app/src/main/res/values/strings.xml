@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sunriseset</string>
+    <string name="SunriseTime">"Sunrise Time: "</string>
+    <string name="SunsetTime">"Sunset Time: "</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+</resources>
